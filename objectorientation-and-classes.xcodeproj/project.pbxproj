@@ -15,6 +15,9 @@
 		6982F6AD21D0BE9900F5F2B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6982F6AC21D0BE9900F5F2B7 /* main.m */; };
 		6982F6B721D0BE9900F5F2B7 /* objectorientation_and_classesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6982F6B621D0BE9900F5F2B7 /* objectorientation_and_classesTests.m */; };
 		6982F6C221D0BE9900F5F2B7 /* objectorientation_and_classesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6982F6C121D0BE9900F5F2B7 /* objectorientation_and_classesUITests.m */; };
+		6982F6D121D0BEED00F5F2B7 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6982F6D021D0BEED00F5F2B7 /* Animal.m */; };
+		69A2402821D2110A008BE7A2 /* Canine.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2402721D2110A008BE7A2 /* Canine.m */; };
+		69A2403121D21663008BE7A2 /* Chihuahua.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2403021D21663008BE7A2 /* Chihuahua.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		691BBEF121D2379800AE6F4B /* Hunt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hunt.h; sourceTree = "<group>"; };
 		6982F69A21D0BE9700F5F2B7 /* objectorientation-and-classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objectorientation-and-classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6982F69D21D0BE9700F5F2B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6982F69E21D0BE9700F5F2B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		6982F6BD21D0BE9900F5F2B7 /* objectorientation-and-classesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objectorientation-and-classesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6982F6C121D0BE9900F5F2B7 /* objectorientation_and_classesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objectorientation_and_classesUITests.m; sourceTree = "<group>"; };
 		6982F6C321D0BE9900F5F2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6982F6CF21D0BEED00F5F2B7 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		6982F6D021D0BEED00F5F2B7 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		69A2402621D2110A008BE7A2 /* Canine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Canine.h; sourceTree = "<group>"; };
+		69A2402721D2110A008BE7A2 /* Canine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canine.m; sourceTree = "<group>"; };
+		69A2402F21D21663008BE7A2 /* Chihuahua.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chihuahua.h; sourceTree = "<group>"; };
+		69A2403021D21663008BE7A2 /* Chihuahua.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chihuahua.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,13 @@
 				6982F6A821D0BE9900F5F2B7 /* LaunchScreen.storyboard */,
 				6982F6AB21D0BE9900F5F2B7 /* Info.plist */,
 				6982F6AC21D0BE9900F5F2B7 /* main.m */,
+				6982F6CF21D0BEED00F5F2B7 /* Animal.h */,
+				6982F6D021D0BEED00F5F2B7 /* Animal.m */,
+				69A2402621D2110A008BE7A2 /* Canine.h */,
+				69A2402721D2110A008BE7A2 /* Canine.m */,
+				69A2402F21D21663008BE7A2 /* Chihuahua.h */,
+				69A2403021D21663008BE7A2 /* Chihuahua.m */,
+				691BBEF121D2379800AE6F4B /* Hunt.h */,
 			);
 			path = "objectorientation-and-classes";
 			sourceTree = "<group>";
@@ -263,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6982F6A221D0BE9700F5F2B7 /* ViewController.m in Sources */,
+				6982F6D121D0BEED00F5F2B7 /* Animal.m in Sources */,
+				69A2403121D21663008BE7A2 /* Chihuahua.m in Sources */,
 				6982F6AD21D0BE9900F5F2B7 /* main.m in Sources */,
 				6982F69F21D0BE9700F5F2B7 /* AppDelegate.m in Sources */,
+				69A2402821D2110A008BE7A2 /* Canine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHZWYBA9N7;
 				INFOPLIST_FILE = "objectorientation-and-classes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHZWYBA9N7;
 				INFOPLIST_FILE = "objectorientation-and-classes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
